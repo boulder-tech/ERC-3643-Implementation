@@ -1,75 +1,61 @@
-# T-REX : Token for Regulated EXchanges
-
-![GitHub](https://img.shields.io/github/license/TokenySolutions/T-REX?color=green)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/TokenySolutions/T-REX)
-![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/TokenySolutions/T-REX/publish-release.yml)
-![GitHub repo size](https://img.shields.io/github/repo-size/TokenySolutions/T-REX)
-![GitHub Release Date](https://img.shields.io/github/release-date/TokenySolutions/T-REX)
+### BoulderTech's ERC-3643: Enhancing Security Token Transactions
 
 ---
 
 <br><br>
 
 <p align="center">
-  <a href="https://tokeny.com/erc3643-whitepaper/">
-  <img src="./docs/img/T-REX.png" width="150" title="t-rex">
+  <a href="https://bouldertech.fi/">
+  <img src="./docs/img/bouldertech logo simple.jpeg" width="150" title="BoulderTech">
   </a>
 </p>
 
-## Overview
+**Introduction**
 
-The T-REX (Token for Regulated EXchanges) protocol is a comprehensive suite of Solidity smart contracts,
-implementing the [ERC-3643 standard](https://eips.ethereum.org/EIPS/eip-3643) and designed to enable the issuance, management, and transfer of security
-tokens in
-compliance with regulations. It ensures secure and compliant transactions for all parties involved in the token exchange.
+Welcome to the BoulderTech ERC-3643 implementation repository. Here, we leverage the power of the T-REX (Token for Regulated EXchanges) protocol, a robust suite of Solidity smart contracts based on the ERC-3643 standard. Our implementation is tailored to streamline the issuance, management, and transfer of security tokens, ensuring compliance with global regulations and providing a secure, transparent environment for token exchanges.
 
-## Key Components
+**Overview**
 
-The T-REX protocol consists of several key components:
+BoulderTech's adaptation of the T-REX protocol incorporates a series of innovative smart contracts, each designed to address specific aspects of security token management in a regulated environment. Our focus is on enhancing the interoperability, efficiency, and regulatory compliance of security token transactions.
 
-- **[ONCHAINID](https://github.com/onchain-id/solidity)**: A smart contract deployed by a user to interact with the security token or any other application
-  where an on-chain identity may be relevant. It stores keys and claims related to a specific identity.
+**Key Components**
 
-- **Trusted Issuers Registry**: This contract houses the addresses of all trusted claim issuers associated with a specific token.
+Our ERC-3643 implementation consists of several critical components, each contributing to the secure and compliant management of security tokens:
 
-- **Claim Topics Registry**: This contract maintains a list of all trusted claim topics related to the security token.
+1. **ONCHAINID**: A user-deployed smart contract facilitating interactions with the security token. It stores keys and claims pertinent to a specific identity, ensuring secure identity management on the blockchain.
+2. **Trusted Issuers Registry**: This contract maintains a list of all trusted claim issuers linked to a particular token, centralizing trust and simplifying verification processes.
+3. **Claim Topics Registry**: This registry keeps track of all trusted claim topics associated with the security token, ensuring clarity and uniformity in claim management.
+4. **Identity Registry**: Holding the addresses of all authorized token holders, this contract verifies claims and manages investor eligibility, crucial for compliance and security.
+5. **Compliance Smart Contract**: Operating autonomously, this contract checks each transfer against the rules established for the token, ensuring all transactions adhere to regulatory standards.
+6. **Security Token Contract**: Interacting with the Identity Registry, this contract verifies investor eligibility, enabling secure holding and transactions of the token.
 
-- **Identity Registry**: This contract holds the identity contract addresses of all eligible users authorized to hold the token. It is responsible for claim verification.
+**Getting Started**
 
-- **Compliance Smart Contract**: This contract independently operates to check whether a transfer is in compliance with the established rules for the token.
+To integrate BoulderTech's ERC-3643 in your project:
 
-- **Security Token Contract**: This contract interacts with the Identity Registry to check the eligibility status of investors, enabling token holding and transactions.
+1. Clone the repository: **`git clone https://github.com/boulder-tech/erc-3643-implementation.git`**
+2. Install dependencies: **`yarn`**
+3. Add Hardhat: **`yarn add --dev hardhat`**
+4. Install ts-node: **`npm install --save-dev ts-node`**
+5. Compile the contracts: **`yarn hardhat compile`**
+6. Run tests: **`yarn hardhat test`** (Expect 660 tests to pass successfully)
 
-## Getting Started
+**Documentation**
 
-1. Clone the repository: `git clone https://github.com/boulder-tech/token-deployer.git`
-2. Install dependencies: `yarn`
-3. Add Hardhat: `yarn add --dev hardhat`
-4. Install ts-node: `nmp install --save-dev ts-node`
-5. Compile the contracts: `yarn hardhat compile`
-6. Run tests: `yarn hardhat test`
+For an in-depth understanding of our ERC-3643 implementation and how it aligns with the T-REX protocol, please refer to our comprehensive documentation and whitepaper. All functionalities of our adapted smart contracts are thoroughly described in these resources.
 
-Should see 660 test pass successfully.
+**ERC-3643 Standard**
 
-## Documentation
+Our implementation follows the [ERC-3643 standard](https://eips.ethereum.org/EIPS/eip-3643), a set of guidelines and specifications for security token contracts on the Ethereum blockchain. This standard ensures compatibility and interoperability with other projects and platforms.
 
-For a detailed understanding of the T-REX protocol, please refer to the [whitepaper](./docs/TREX-WhitePaper.pdf).
-All functions of T-REX smart contracts are described in the [T-REX documentation](https://docs.tokeny.com/docs/smart-contracts)
+**Contributing**
 
-## Contributing
+We actively encourage community contributions to this project. For guidelines on how to contribute, please refer to our CONTRIBUTING document.
 
-We welcome contributions from the community. Please refer to the [CONTRIBUTING](./CONTRIBUTING.md) guide for more details.
+**License**
 
-## License
+This project is licensed under the GNU General Public License v3.0, ensuring open-source accessibility and collaborative improvement.
 
-This project is licensed under the [GNU General Public License v3.0](./LICENSE.md).
+**Security Audit**
 
----
-
-<div style="padding: 16px;">
-   <a href="https://tokeny.com/wp-content/uploads/2023/04/Tokeny_TREX-v4_SC_Audit_Report.pdf" target="_blank">
-       <img src="https://hacken.io/wp-content/uploads/2023/02/ColorWBTypeSmartContractAuditBackFilled.png" alt="Proofed by Hacken - Smart contract audit" style="width: 258px; height: 100px;">
-   </a>
-</div>
-
----
+Our smart contract has been rigorously audited by Hacken to ensure top-notch security and compliance standards.

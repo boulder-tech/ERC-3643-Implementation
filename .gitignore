@@ -20,3 +20,7 @@ gas-report
 /bin/
 
 .env
+
+README-original.md
+
+BT-1_data_contracts_deployed.txt

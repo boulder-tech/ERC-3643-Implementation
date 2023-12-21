@@ -7277,8 +7277,8 @@
       ]
     },
     "/home/pablo/Trabajo/BTech/token-deployer/contracts/compliance/modular/modules/MaxBalanceModule.sol": {
-      "lastModificationDate": 1701451569431,
-      "contentHash": "fc7a85a2559ea6afe34ef2e669acf336",
+      "lastModificationDate": 1702297955581,
+      "contentHash": "7fb2d8679d9cbcf058a1bdd028ca3ca5",
       "sourceName": "contracts/compliance/modular/modules/MaxBalanceModule.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -7306,7 +7306,7 @@
         }
       },
       "imports": [
-        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "../../../../node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
         "../IModularCompliance.sol",
         "../../../token/IToken.sol",
         "./AbstractModule.sol"
