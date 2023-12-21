@@ -33,7 +33,7 @@ Our ERC-3643 implementation consists of several critical components, each contri
 
 To integrate BoulderTech's ERC-3643 in your project:
 
-1. Clone the repository: **`git clone https://github.com/boulder-tech/erc-3643-implementation.git`**
+1. Clone the repository: **`git clone https://github.com/boulder-tech/ERC-3643-Implementation.git`**
 2. Install dependencies: **`yarn`**
 3. Add Hardhat: **`yarn add --dev hardhat`**
 4. Install ts-node: **`npm install --save-dev ts-node`**
