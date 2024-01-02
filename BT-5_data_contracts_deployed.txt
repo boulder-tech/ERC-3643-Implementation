@@ -1,0 +1,65 @@
+Deployer Address: 0xF13b282C1a8f3965A384D71D78683dF208162753
+Deployer Balance: 78089396170367052904
+tokenIssuer Address: 0x76e08d0286d6D376bDaA66f2795E1F8C3Cb2C50E
+tokenAgent Address: 0xC51087b6A4e895Cb1c486524225Bca7dB5b65A4A
+tokenAdmin Address: 0xe3D7Da7984a218Fb7Fb6aaF66463180A7Bf6F43B
+claimIssuer Address: 0xb17217cf74b7a7c2f89962bE80D3De7Dd0aCf5aa
+Deploying Implementations...
+Deployed claimTopicsRegistryImplementation at: 0xba7A9e6Dd15b76D31a482cB54E70EE83ff56f508
+Deployed trustedIssuersRegistryImplementation at: 0x1533866A1d462656Dd4440dA87D9370ceD84B741
+Deployed identityRegistryStorageImplementation at: 0x4d3051F224020CC1058b619a4ca1BD9B17027eDF
+Deployed identityRegistryImplementation at: 0x9371eFc93B2776B0CeCe835Cec5A1bBa6EC9605d
+Deployed modularComplianceImplementation at: 0x167ff2675B6a2b81c463712644E43164Fb3EE0C5
+Deployed tokenImplementation at: 0xD3695826A1869CaE96799b67a86A387d5e09F6Fb
+Deploying Identity Implementation Authority...
+Deployed Identity Implementation Authority at: 0x8421a5754F5230E4706bb9fB8FC48a03e8d88A2d 
+Deploying Identity Factory...
+Deployed Identity Factory at: 0xfeb627f8cbCbF9daDea2B727d5c4049714ca4393 
+Deploying TREXImplementationAuthority...
+Deployed trexImplementationAuthority at: 0x973FC2C9B97342542063C44C056Ba73A20F7e9cC
+Deploying TREXFactory...
+Deployed Trex Factory at: 0x65A8Cf6A6Ac12bFb58E174eD0eDA9EeA2A105F92
+Connected identityFactory with trexFactory
+Deploying ClaimTopicsRegistryProxy...
+Deployed claimTopicsRegistry at: 0xFb139c29B9C544eb4FD58f31E62D336b0B511945
+Deploying ClaimTopicsRegistryProxy...
+Deployed trustedIssuersRegistry at: 0x517D7f374768Cd9078467409715B2f4727a78645
+Deploying identityRegistryStorage...
+Deployed identityRegistryStorage at: 0x5bB0Ef4194D052a6E4C6428eE3118A5f4A39403e
+Deploying defaultCompliance...
+Deployed defaultCompliance at: 0x461cC8C4cf19f0a74Ad1a148c1e368Ca256944aF
+Deploying identityRegistry...
+Deployed identityRegistry at: 0xCCdd0a7A1D813BB36193Ef5a25a193f726C39f84
+Deploying tokenOID...
+tokenOID deployed at: 0xD17a3CC04F164DDC3385ee9c61a763DCfccb8f7F
+TokenProxy deployed at: 0x18a61b7d1d8059329BD4929a00416D2c7Ee8af66
+Deployed token at: 0x18a61b7d1d8059329BD4929a00416D2c7Ee8af66
+Token Name: BoulderTest-5
+Token Symbol: BT-5
+Deployer Balance: 77463319465776231444
+Total cost 0.62607670459082146
+Deploying agentManager...
+Deployed agentManager at: 0x932F830274a906bd812f65FA46587e1Aa0CA846B
+Deploying identityRegistryStorage...
+Connected deployer with identityRegistryStorage and binded IndentityRegistry
+Connected deployer with tokenAgent
+Connected deployer with claimTopicsRegistry
+Deploying claimIssuerContract
+Deployed claimIssuerContract at: 0x4AC171AB8065736Dd899d93ddFc30d56958120cA
+Connected deployer with trustedIssuersRegistry
+Deploying identity proxy for tokenHolder...
+tokenHolder's identity deployed...
+adding tokenAgent to identityRegistry
+added tokenAgent to identityRegistry
+adding token to identityRegistry
+added token to identityRegistry
+waiting 20 sec
+continuing...
+BatchRegistryIdentity for tokenHolder's address
+Done with BatchRegistryIdentity for tokenHolder's address
+Claiming for tokenHolder...
+Signature Claim for tokenHolder
+Awaiting tokenHolder's identity
+Minting tokens to tokenHolder's wallet
+[object Promise] minted at tokenHolder's wallet
+Done in 218.55s.

@@ -8592,6 +8592,4302 @@
         "RolesLegacy",
         "TokenStorageLegacy"
       ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/DVA/DVATransferManager.sol": {
+      "lastModificationDate": 1703168940961,
+      "contentHash": "0d663076a198bc6154278dbe3ebf5553",
+      "sourceName": "contracts/DVA/DVATransferManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../roles/AgentRole.sol",
+        "../token/IToken.sol",
+        "./IDVATransferManager.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "DVATransferManager"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/roles/AgentRole.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "a6249341d88a24ddcf9a8c3c2b16ebac",
+      "sourceName": "contracts/roles/AgentRole.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./Roles.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "AgentRole"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/token/IToken.sol": {
+      "lastModificationDate": 1703168940969,
+      "contentHash": "b8174dfdf4e9a49fb6502ca5a1f37dd4",
+      "sourceName": "contracts/token/IToken.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../registry/interface/IIdentityRegistry.sol",
+        "../compliance/modular/IModularCompliance.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IToken"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/DVA/IDVATransferManager.sol": {
+      "lastModificationDate": 1703168940961,
+      "contentHash": "b567868035205bd6904020cafaa10a94",
+      "sourceName": "contracts/DVA/IDVATransferManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../roles/AgentRole.sol",
+        "../token/IToken.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IDVATransferManager"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/roles/Roles.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "584100b4dd1782379e66cd965063172b",
+      "sourceName": "contracts/roles/Roles.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Roles"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1703595951565,
+      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1703595951645,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/IModularCompliance.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "e05469ce8fd7f182edd4c76bc1d83f46",
+      "sourceName": "contracts/compliance/modular/IModularCompliance.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IModularCompliance"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/interface/IIdentityRegistry.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "5fb85a678d5cb14bbcf69b23e81ecd45",
+      "sourceName": "contracts/registry/interface/IIdentityRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ITrustedIssuersRegistry.sol",
+        "./IClaimTopicsRegistry.sol",
+        "./IIdentityRegistryStorage.sol",
+        "@onchain-id/solidity/contracts/interface/IClaimIssuer.sol",
+        "@onchain-id/solidity/contracts/interface/IIdentity.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IIdentityRegistry"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1703595954073,
+      "contentHash": "df36f7051335cd1e748b1b6463b7fdd3",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/interface/IClaimTopicsRegistry.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "a41ed1d7d8032707bff300849f9256b0",
+      "sourceName": "contracts/registry/interface/IClaimTopicsRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IClaimTopicsRegistry"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/interface/ITrustedIssuersRegistry.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "bf6323c05cffd4d94cec54fbadebbef1",
+      "sourceName": "contracts/registry/interface/ITrustedIssuersRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@onchain-id/solidity/contracts/interface/IClaimIssuer.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ITrustedIssuersRegistry"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/interface/IIdentityRegistryStorage.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "9b12e4eacc89482a04e1621e69e01a44",
+      "sourceName": "contracts/registry/interface/IIdentityRegistryStorage.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@onchain-id/solidity/contracts/interface/IIdentity.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IIdentityRegistryStorage"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/interface/IClaimIssuer.sol": {
+      "lastModificationDate": 1703595953721,
+      "contentHash": "69e0e5877f8b07cd99a69d39b23604d4",
+      "sourceName": "@onchain-id/solidity/contracts/interface/IClaimIssuer.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IIdentity.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IClaimIssuer"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/interface/IIdentity.sol": {
+      "lastModificationDate": 1703595953721,
+      "contentHash": "4fc3366bc83093ebeba9e29db9ea5587",
+      "sourceName": "@onchain-id/solidity/contracts/interface/IIdentity.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC734.sol",
+        "./IERC735.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IIdentity"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/interface/IERC735.sol": {
+      "lastModificationDate": 1703595953721,
+      "contentHash": "1a32851ce8fb5a36dbee414691df1453",
+      "sourceName": "@onchain-id/solidity/contracts/interface/IERC735.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IERC735"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/interface/IERC734.sol": {
+      "lastModificationDate": 1703595953721,
+      "contentHash": "0750ad5923271af0a35515856aed138d",
+      "sourceName": "@onchain-id/solidity/contracts/interface/IERC734.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IERC734"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/token/Token.sol": {
+      "lastModificationDate": 1703168940969,
+      "contentHash": "790aef0861e09d441ab10e73a9c80157",
+      "sourceName": "contracts/token/Token.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IToken.sol",
+        "@onchain-id/solidity/contracts/interface/IIdentity.sol",
+        "./TokenStorage.sol",
+        "../roles/AgentRoleUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/token/TokenStorage.sol": {
+      "lastModificationDate": 1703168940969,
+      "contentHash": "ae3f7ed6f07635a0eeb5ad529f32dff6",
+      "sourceName": "contracts/token/TokenStorage.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../compliance/modular/IModularCompliance.sol",
+        "../registry/interface/IIdentityRegistry.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TokenStorage"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/roles/AgentRoleUpgradeable.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "3fe6314e95b2d1f2caa801c42c73423c",
+      "sourceName": "contracts/roles/AgentRoleUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "./Roles.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "AgentRoleUpgradeable"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol": {
+      "lastModificationDate": 1703595951721,
+      "contentHash": "db24b956904575cc79d02867ec03263c",
+      "sourceName": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/ContextUpgradeable.sol",
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableUpgradeable"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol": {
+      "lastModificationDate": 1703595951753,
+      "contentHash": "6200b84950eb05b4a92a39fd1d6e0f9b",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ContextUpgradeable"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol": {
+      "lastModificationDate": 1703595954277,
+      "contentHash": "b0970a564d121abf9adfff8d1a01eb16",
+      "sourceName": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/AddressUpgradeable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol": {
+      "lastModificationDate": 1703595951749,
+      "contentHash": "c30c805386fda8a42ff515da963d3a95",
+      "sourceName": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "AddressUpgradeable"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/Identity.sol": {
+      "lastModificationDate": 1703595951049,
+      "contentHash": "603f651aab42ee3b2a2ac2337e5bc57a",
+      "sourceName": "@onchain-id/solidity/contracts/Identity.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IIdentity.sol",
+        "./interface/IClaimIssuer.sol",
+        "./version/Version.sol",
+        "./storage/Storage.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Identity"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/version/Version.sol": {
+      "lastModificationDate": 1703595953725,
+      "contentHash": "5667d0c91e6b44eb77e65965e8c28a19",
+      "sourceName": "@onchain-id/solidity/contracts/version/Version.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Version"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/storage/Storage.sol": {
+      "lastModificationDate": 1703595953721,
+      "contentHash": "282efc885e0c72081b7c5317743adb34",
+      "sourceName": "@onchain-id/solidity/contracts/storage/Storage.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Structs.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Storage"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/storage/Structs.sol": {
+      "lastModificationDate": 1703595953721,
+      "contentHash": "883b103bb52a7d42d64e3ccf1086634e",
+      "sourceName": "@onchain-id/solidity/contracts/storage/Structs.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Structs"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/ClaimIssuer.sol": {
+      "lastModificationDate": 1703595951049,
+      "contentHash": "fdf7f71498f259f60362a3c9797cb64a",
+      "sourceName": "@onchain-id/solidity/contracts/ClaimIssuer.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IClaimIssuer.sol",
+        "./Identity.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ClaimIssuer"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/_testContracts/OIDImports.sol": {
+      "lastModificationDate": 1703168940961,
+      "contentHash": "76518fa79e3860939dc5673ff03de68f",
+      "sourceName": "contracts/_testContracts/OIDImports.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@onchain-id/solidity/contracts/ClaimIssuer.sol",
+        "@onchain-id/solidity/contracts/Identity.sol",
+        "@onchain-id/solidity/contracts/proxy/ImplementationAuthority.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "OIDImports"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/proxy/ImplementationAuthority.sol": {
+      "lastModificationDate": 1703595953721,
+      "contentHash": "04b1bdbff6a4eb09972ffa0aebcff411",
+      "sourceName": "@onchain-id/solidity/contracts/proxy/ImplementationAuthority.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interface/IImplementationAuthority.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ImplementationAuthority"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/interface/IImplementationAuthority.sol": {
+      "lastModificationDate": 1703595953721,
+      "contentHash": "29478863f3be6f3d50c9c44968b2fa11",
+      "sourceName": "@onchain-id/solidity/contracts/interface/IImplementationAuthority.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IImplementationAuthority"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1703595954073,
+      "contentHash": "3ae5166c6827a9cf1a7a462d1632b464",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1703595955265,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/factory/TREXGateway.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "5f17b186a61fe9e524b9eac1d5c9b07b",
+      "sourceName": "contracts/factory/TREXGateway.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ITREXGateway.sol",
+        "../roles/AgentRole.sol",
+        "@openzeppelin/contracts/utils/Strings.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TREXGateway"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/factory/ITREXGateway.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "9d9ee0b2ed5369cafb08fff1168831ab",
+      "sourceName": "contracts/factory/ITREXGateway.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ITREXFactory.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ITREXGateway"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1703595951645,
+      "contentHash": "48686fc32a22a3754b8e63321857dd2a",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./math/Math.sol",
+        "./math/SignedMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/factory/ITREXFactory.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "7bedc2b4aca246bcdd9732b05ea541cc",
+      "sourceName": "contracts/factory/ITREXFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ITREXFactory"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol": {
+      "lastModificationDate": 1703595954081,
+      "contentHash": "9488ebd4daacfee8ad04811600d7d061",
+      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SignedMath"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
+      "lastModificationDate": 1703595954081,
+      "contentHash": "fe63409d8a06818b926cf89e0ea88b1b",
+      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/authority/TREXImplementationAuthority.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "4325b21e2f893b3cd92bb4e41184c891",
+      "sourceName": "contracts/proxy/authority/TREXImplementationAuthority.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./ITREXImplementationAuthority.sol",
+        "../../token/IToken.sol",
+        "../interface/IProxy.sol",
+        "../../factory/ITREXFactory.sol",
+        "./IIAFactory.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TREXImplementationAuthority"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/authority/IIAFactory.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "9f789faecf67f23c758140d409b50593",
+      "sourceName": "contracts/proxy/authority/IIAFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IIAFactory"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/interface/IProxy.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "88a66ce61e8e457593aa8eeff6374272",
+      "sourceName": "contracts/proxy/interface/IProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IProxy"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/authority/ITREXImplementationAuthority.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "865876c8eb446dae16b73156f315b1f7",
+      "sourceName": "contracts/proxy/authority/ITREXImplementationAuthority.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ITREXImplementationAuthority"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/AbstractProxy.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "26265a74543eff49939ca656eac762c5",
+      "sourceName": "contracts/proxy/AbstractProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interface/IProxy.sol",
+        "./authority/ITREXImplementationAuthority.sol",
+        "../../node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "AbstractProxy"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/TrustedIssuersRegistryProxy.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "5575f1aa9badb3bc24c983d0cc7ba2d3",
+      "sourceName": "contracts/proxy/TrustedIssuersRegistryProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TrustedIssuersRegistryProxy"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/factory/TREXFactory.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "78135159e87b913387ea17fa877d9396",
+      "sourceName": "contracts/factory/TREXFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../roles/AgentRole.sol",
+        "../token/IToken.sol",
+        "../registry/interface/IClaimTopicsRegistry.sol",
+        "../registry/interface/IIdentityRegistry.sol",
+        "../compliance/modular/IModularCompliance.sol",
+        "../registry/interface/ITrustedIssuersRegistry.sol",
+        "../registry/interface/IIdentityRegistryStorage.sol",
+        "../proxy/authority/ITREXImplementationAuthority.sol",
+        "../proxy/TokenProxy.sol",
+        "../proxy/ClaimTopicsRegistryProxy.sol",
+        "../proxy/IdentityRegistryProxy.sol",
+        "../proxy/IdentityRegistryStorageProxy.sol",
+        "../proxy/TrustedIssuersRegistryProxy.sol",
+        "../proxy/ModularComplianceProxy.sol",
+        "./ITREXFactory.sol",
+        "@onchain-id/solidity/contracts/factory/IIdFactory.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TREXFactory"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/TokenProxy.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "1c89e66750cca1d79442f1871871dc3f",
+      "sourceName": "contracts/proxy/TokenProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TokenProxy"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/ClaimTopicsRegistryProxy.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "ac732df3e4daf8dc34e5ef4251211bd5",
+      "sourceName": "contracts/proxy/ClaimTopicsRegistryProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ClaimTopicsRegistryProxy"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/IdentityRegistryProxy.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "1dfae6ec496c6082a7f2b51022dc3c1d",
+      "sourceName": "contracts/proxy/IdentityRegistryProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IdentityRegistryProxy"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/IdentityRegistryStorageProxy.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "bff69728acca4de95c012f31a05120d0",
+      "sourceName": "contracts/proxy/IdentityRegistryStorageProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IdentityRegistryStorageProxy"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/ModularComplianceProxy.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "c3119b4abc9888658afa3298a26d0b93",
+      "sourceName": "contracts/proxy/ModularComplianceProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ModularComplianceProxy"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@onchain-id/solidity/contracts/factory/IIdFactory.sol": {
+      "lastModificationDate": 1703595953721,
+      "contentHash": "c38245c3f31055745a89d0838363c7a8",
+      "sourceName": "@onchain-id/solidity/contracts/factory/IIdFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IIdFactory"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/roles/permissioning/owner/OwnerManager.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "e800c9ec867d5f6b08b4502842cee077",
+      "sourceName": "contracts/roles/permissioning/owner/OwnerManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../token/IToken.sol",
+        "../../../registry/interface/IIdentityRegistry.sol",
+        "../../../registry/interface/ITrustedIssuersRegistry.sol",
+        "../../../registry/interface/IClaimTopicsRegistry.sol",
+        "../../../compliance/legacy/ICompliance.sol",
+        "./OwnerRoles.sol",
+        "../../AgentRole.sol",
+        "@onchain-id/solidity/contracts/interface/IIdentity.sol",
+        "@onchain-id/solidity/contracts/interface/IClaimIssuer.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "OwnerManager"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/ICompliance.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "d0a8a4769be4b65487b62d46f2870bf0",
+      "sourceName": "contracts/compliance/legacy/ICompliance.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ICompliance"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/roles/permissioning/owner/OwnerRoles.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "c60e8f233ab8b47b56f0bba44206d6ae",
+      "sourceName": "contracts/roles/permissioning/owner/OwnerRoles.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "../../Roles.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "OwnerRoles"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/roles/permissioning/owner/OwnerRolesUpgradeable.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "b146f1b82423e9d27ad2cb92ec8f8ae8",
+      "sourceName": "contracts/roles/permissioning/owner/OwnerRolesUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "../../Roles.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "OwnerRolesUpgradeable"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/roles/permissioning/agent/AgentRolesUpgradeable.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "17d4f30891fb160a4e1937ebd78866d6",
+      "sourceName": "contracts/roles/permissioning/agent/AgentRolesUpgradeable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "../../Roles.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "AgentRolesUpgradeable"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/implementation/IdentityRegistryStorage.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "c45f06beeda62e60ca4789b5a5e6873d",
+      "sourceName": "contracts/registry/implementation/IdentityRegistryStorage.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@onchain-id/solidity/contracts/interface/IIdentity.sol",
+        "../../roles/AgentRoleUpgradeable.sol",
+        "../interface/IIdentityRegistryStorage.sol",
+        "../storage/IRSStorage.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IdentityRegistryStorage"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/storage/IRSStorage.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "fdf2b6c7e8280101c168829a6c992c81",
+      "sourceName": "contracts/registry/storage/IRSStorage.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@onchain-id/solidity/contracts/interface/IIdentity.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IRSStorage"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/storage/IRStorage.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "7913e8a021e71ec8901ade168da6ca27",
+      "sourceName": "contracts/registry/storage/IRStorage.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../interface/IClaimTopicsRegistry.sol",
+        "../interface/ITrustedIssuersRegistry.sol",
+        "../interface/IIdentityRegistryStorage.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IRStorage"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/implementation/TrustedIssuersRegistry.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "a2937817b2dd6d24e2f617a593817f74",
+      "sourceName": "contracts/registry/implementation/TrustedIssuersRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@onchain-id/solidity/contracts/interface/IClaimIssuer.sol",
+        "../../../node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "../interface/ITrustedIssuersRegistry.sol",
+        "../storage/TIRStorage.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TrustedIssuersRegistry"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/storage/TIRStorage.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "0ce32af58fc5d3631b8bed9648d1bcd5",
+      "sourceName": "contracts/registry/storage/TIRStorage.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@onchain-id/solidity/contracts/interface/IClaimIssuer.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TIRStorage"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/implementation/IdentityRegistry.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "1baf68c0f50c6f834d8f8800f69e53cb",
+      "sourceName": "contracts/registry/implementation/IdentityRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@onchain-id/solidity/contracts/interface/IClaimIssuer.sol",
+        "@onchain-id/solidity/contracts/interface/IIdentity.sol",
+        "../interface/IClaimTopicsRegistry.sol",
+        "../interface/ITrustedIssuersRegistry.sol",
+        "../interface/IIdentityRegistry.sol",
+        "../../roles/AgentRoleUpgradeable.sol",
+        "../interface/IIdentityRegistryStorage.sol",
+        "../storage/IRStorage.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IdentityRegistry"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/implementation/ClaimTopicsRegistry.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "ce7becda8a600e643017901da85c05f9",
+      "sourceName": "contracts/registry/implementation/ClaimTopicsRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "../storage/CTRStorage.sol",
+        "../interface/IClaimTopicsRegistry.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ClaimTopicsRegistry"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/registry/storage/CTRStorage.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "1609b1bb9390aa4906690b642940412a",
+      "sourceName": "contracts/registry/storage/CTRStorage.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "CTRStorage"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/MaxBalanceModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "7fb2d8679d9cbcf058a1bdd028ca3ca5",
+      "sourceName": "contracts/compliance/modular/modules/MaxBalanceModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../../node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "../IModularCompliance.sol",
+        "../../../token/IToken.sol",
+        "./AbstractModule.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "MaxBalanceModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/AbstractModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "5e37355df6abe60ecdd341a8ee8dd23a",
+      "sourceName": "contracts/compliance/modular/modules/AbstractModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IModule.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "AbstractModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/IModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "4aebd08dffc1261bfa3503686d63db55",
+      "sourceName": "contracts/compliance/modular/modules/IModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/TransferRestrictModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "764a12dc2a7aab3ed3b71c02e72bce2e",
+      "sourceName": "contracts/compliance/modular/modules/TransferRestrictModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractModule.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "TransferRestrictModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/TransferFeesModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "09b682f9732a0430d80b91d0b2743aad",
+      "sourceName": "contracts/compliance/modular/modules/TransferFeesModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IModularCompliance.sol",
+        "../../../token/IToken.sol",
+        "../../../roles/AgentRole.sol",
+        "./AbstractModule.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TransferFeesModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/TimeTransfersLimitsModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "d5779faef7c4dc16d0eade2dd32854d0",
+      "sourceName": "contracts/compliance/modular/modules/TimeTransfersLimitsModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IModularCompliance.sol",
+        "../../../token/IToken.sol",
+        "../../../roles/AgentRole.sol",
+        "./AbstractModule.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TimeTransfersLimitsModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/TimeExchangeLimitsModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "b61956161389965702bd5c15d3976a3a",
+      "sourceName": "contracts/compliance/modular/modules/TimeExchangeLimitsModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IModularCompliance.sol",
+        "../../../token/IToken.sol",
+        "../../../roles/AgentRole.sol",
+        "./AbstractModule.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TimeExchangeLimitsModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/SupplyLimitModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "312e50d2a6024ed5cc5c4ebb941d4451",
+      "sourceName": "contracts/compliance/modular/modules/SupplyLimitModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IModularCompliance.sol",
+        "../../../token/IToken.sol",
+        "./AbstractModule.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "SupplyLimitModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/ExchangeMonthlyLimitsModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "e4f1e10c9f02740e52c9bb7d776672fa",
+      "sourceName": "contracts/compliance/modular/modules/ExchangeMonthlyLimitsModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IModularCompliance.sol",
+        "../../../token/IToken.sol",
+        "../../../roles/AgentRole.sol",
+        "./AbstractModule.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ExchangeMonthlyLimitsModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/CountryRestrictModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "3a0c9201c10446be2745fb1b05305406",
+      "sourceName": "contracts/compliance/modular/modules/CountryRestrictModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IModularCompliance.sol",
+        "../../../token/IToken.sol",
+        "./AbstractModule.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "CountryRestrictModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/CountryAllowModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "7bd59f72fcf3e5bf9f9b849ad96ea04f",
+      "sourceName": "contracts/compliance/modular/modules/CountryAllowModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IModularCompliance.sol",
+        "../../../token/IToken.sol",
+        "./AbstractModule.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "CountryAllowModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/modules/ConditionalTransferModule.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "4b0a9c40af7e6c8f036cbe5842a8ed2d",
+      "sourceName": "contracts/compliance/modular/modules/ConditionalTransferModule.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IModularCompliance.sol",
+        "../../../token/IToken.sol",
+        "./AbstractModule.sol",
+        "../../../roles/AgentRole.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ConditionalTransferModule"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/ModularCompliance.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "21928ba58c434dae8454f762551452e2",
+      "sourceName": "contracts/compliance/modular/ModularCompliance.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "../../token/IToken.sol",
+        "./IModularCompliance.sol",
+        "./MCStorage.sol",
+        "./modules/IModule.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ModularCompliance"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/modular/MCStorage.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "ac05b80791e094a7032178e1a0222e15",
+      "sourceName": "contracts/compliance/modular/MCStorage.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "MCStorage"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/roles/permissioning/agent/AgentRoles.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "cda98ff337a35192d2316e7d0b4142c7",
+      "sourceName": "contracts/roles/permissioning/agent/AgentRoles.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "../../Roles.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "AgentRoles"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/roles/permissioning/agent/AgentManager.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "e4d024c42eb46c347355f8ed082c11c7",
+      "sourceName": "contracts/roles/permissioning/agent/AgentManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@onchain-id/solidity/contracts/interface/IIdentity.sol",
+        "../../../token/IToken.sol",
+        "../../../registry/interface/IIdentityRegistry.sol",
+        "./AgentRoles.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "AgentManager"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/BasicCompliance.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "988e4254025dd07f6a47561cd69c8c6f",
+      "sourceName": "contracts/compliance/legacy/BasicCompliance.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../roles/AgentRole.sol",
+        "./ICompliance.sol",
+        "../../token/IToken.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "BasicCompliance"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/features/SupplyLimit.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "e1e0a9ac8260638b0151ab827baa24b0",
+      "sourceName": "contracts/compliance/legacy/features/SupplyLimit.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../BasicCompliance.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "SupplyLimit"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/test/SupplyLimitTest.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "efcd536e888144ede9d284293494a99a",
+      "sourceName": "contracts/compliance/legacy/test/SupplyLimitTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../features/SupplyLimit.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "SupplyLimitTest"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/features/MaxBalance.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "014dd07d238091852234d844c613ae91",
+      "sourceName": "contracts/compliance/legacy/features/MaxBalance.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../BasicCompliance.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "MaxBalance"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/test/MaxBalanceTest.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "c29cb7e2d2ca4ffc6deea6d4b50071cf",
+      "sourceName": "contracts/compliance/legacy/test/MaxBalanceTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../features/MaxBalance.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "MaxBalanceTest"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/features/ExchangeMonthlyLimits.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "ffc6c96fdb772f17ce2ec4aa88ea2f45",
+      "sourceName": "contracts/compliance/legacy/features/ExchangeMonthlyLimits.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../BasicCompliance.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ExchangeMonthlyLimits"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/test/ExchangeMonthlyLimitsTest.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "e15f2a435ac41e71618016af6a8dbfc9",
+      "sourceName": "contracts/compliance/legacy/test/ExchangeMonthlyLimitsTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../features/ExchangeMonthlyLimits.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ExchangeMonthlyLimitsTest"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/features/DayMonthLimits.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "aac591736833671bc71e27dfb96e32bc",
+      "sourceName": "contracts/compliance/legacy/features/DayMonthLimits.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../BasicCompliance.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "DayMonthLimits"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/test/DayMonthLimitsTest.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "2f1330410cd5d2954cba5ce2b7eaf6da",
+      "sourceName": "contracts/compliance/legacy/test/DayMonthLimitsTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../features/DayMonthLimits.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "DayMonthLimitsTest"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/features/CountryWhitelisting.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "b5cf68fc7b0565e6c827c0856fae69b2",
+      "sourceName": "contracts/compliance/legacy/features/CountryWhitelisting.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../BasicCompliance.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "CountryWhitelisting"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/test/CountryWhitelistingTest.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "75865185eb211de88e367a6178291e61",
+      "sourceName": "contracts/compliance/legacy/test/CountryWhitelistingTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../features/CountryWhitelisting.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "CountryWhitelistingTest"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/features/CountryRestrictions.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "795eb6291a6cb1bac0a06ea685517937",
+      "sourceName": "contracts/compliance/legacy/features/CountryRestrictions.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../BasicCompliance.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "CountryRestrictions"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/test/CountryRestrictionsTest.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "871ed7f2bed86dcc4cd62fb6b4c37b08",
+      "sourceName": "contracts/compliance/legacy/test/CountryRestrictionsTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../features/CountryRestrictions.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "CountryRestrictionsTest"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/features/ApproveTransfer.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "ee84ccb8f8e81bf085d7775283071523",
+      "sourceName": "contracts/compliance/legacy/features/ApproveTransfer.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../BasicCompliance.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ApproveTransfer"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/test/ApproveTransferTest.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "bafb65db361bda4e960114b7abdf2b89",
+      "sourceName": "contracts/compliance/legacy/test/ApproveTransferTest.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../features/ApproveTransfer.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ApproveTransferTest"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/compliance/legacy/DefaultCompliance.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "ff3fb8e45717f61466ddf937caf0c68b",
+      "sourceName": "contracts/compliance/legacy/DefaultCompliance.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BasicCompliance.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "DefaultCompliance"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/DVD/DVDTransferManager.sol": {
+      "lastModificationDate": 1703168940961,
+      "contentHash": "cff283d44c101e7745bb159f0e60c381",
+      "sourceName": "contracts/DVD/DVDTransferManager.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../roles/AgentRole.sol",
+        "../token/IToken.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "DVDTransferManager"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/proxy/authority/IAFactory.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "ce6ba681ca204177eafe7bd81045d971",
+      "sourceName": "contracts/proxy/authority/IAFactory.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TREXImplementationAuthority.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IAFactory"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol": {
+      "lastModificationDate": 1703595955265,
+      "contentHash": "b9e6238c7bb16f87e7562ad2857080df",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../ERC20.sol",
+        "../../../security/Pausable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Pausable"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/node_modules/@openzeppelin/contracts/security/Pausable.sol": {
+      "lastModificationDate": 1703595951645,
+      "contentHash": "25c8108f36fdd472bc78d4c4af240c11",
+      "sourceName": "@openzeppelin/contracts/security/Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pausable"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/_testContracts/TestERC20.sol": {
+      "lastModificationDate": 1703168940961,
+      "contentHash": "b0a18122f3abfb4a1846c690cfd0ab4b",
+      "sourceName": "contracts/_testContracts/TestERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol",
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "TestERC20"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/_testContracts/ClaimIssuerTrick.sol": {
+      "lastModificationDate": 1703168940961,
+      "contentHash": "7d05e25649e804dd0d3ca9abbbd1b02d",
+      "sourceName": "contracts/_testContracts/ClaimIssuerTrick.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": [
+        "ClaimIssuerTrick"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/_testContracts/MockContract.sol": {
+      "lastModificationDate": 1703168940961,
+      "contentHash": "17ea060b6745b8d1df6c6db9a03534cb",
+      "sourceName": "contracts/_testContracts/MockContract.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "MockContract"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/_testContracts/v_3_5_2/LegacyIA.sol": {
+      "lastModificationDate": 1703168940961,
+      "contentHash": "712fd3eabac86ff81560681f45888c32",
+      "sourceName": "contracts/_testContracts/v_3_5_2/LegacyIA.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "ContextLegacy",
+        "LegacyIA",
+        "OwnableLegacy"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/_testContracts/v_3_5_2/LegacyProxy.sol": {
+      "lastModificationDate": 1703168940961,
+      "contentHash": "4e2fb58b0e9a0a147576e0e7a182ddec",
+      "sourceName": "contracts/_testContracts/v_3_5_2/LegacyProxy.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "IImplementationAuthorityLegacy",
+        "LegacyProxy"
+      ]
+    },
+    "/home/pablo/Trabajo/BTech/ERC-3643-Implementation/contracts/_testContracts/v_3_5_2/LegacyToken_3_5_2.sol": {
+      "lastModificationDate": 1703168940965,
+      "contentHash": "64fa7a351ca9dad732a13d99c64f1448",
+      "sourceName": "contracts/_testContracts/v_3_5_2/LegacyToken_3_5_2.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "AgentRoleUpgradeableLegacy",
+        "ContextUpgradeableLegacy",
+        "IClaimIssuerLegacy",
+        "IClaimTopicsRegistryLegacy",
+        "IComplianceLegacy",
+        "IERC20Legacy",
+        "IERC734Legacy",
+        "IERC735Legacy",
+        "IIdentityRegistryLegacy",
+        "IIdentityRegistryStorageLegacy",
+        "ITokenLegacy",
+        "ITrustedIssuersRegistryLegacy",
+        "InitializableLegacy",
+        "LegacyIIdentity",
+        "LegacyToken_3_5_2",
+        "OwnableUpgradeableLegacy",
+        "RolesLegacy",
+        "TokenStorageLegacy"
+      ]
     }
   }
 }
