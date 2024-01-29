@@ -8,6 +8,7 @@ import 'dotenv/config';
 import * as fs from 'fs';
 
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL!
+const AGOR_RPC_URL = process.env.AGOR_RPC_URL!
 const PRIVATE_KEY_DEVELOPER = process.env.PRIVATE_KEY_DEVELOPER!
 const PRIVATE_KEY_TOKEN_ISSUER = process.env.PRIVATE_KEY_TOKEN_ISSUER!
 const PRIVATE_KEY_TOKEN_AGENT = process.env.PRIVATE_KEY_TOKEN_AGENT!
@@ -180,8 +181,8 @@ async function main() {
   console.log(`Deploying tokenOID...`)
   const tokenOID = await deployIdentityProxy(identityImplementationAuthority.address, tokenIssuer.address, deployer);
   console.log(`tokenOID deployed at: ${tokenOID.address}`)
-  const tokenName = "BoulderTest-6";
-  const tokenSymbol = "BT-6";
+  const tokenName = "BoulderTest-AGOR-1";
+  const tokenSymbol = "BT-AGOR-1";
   const tokenDecimals = BigNumber.from("0");
   
   const tokenproxyJson = JSON.parse(fs.readFileSync(PATH_TO_TOKENPROXY_CONTRACTS, 'utf8'));

@@ -49,21 +49,22 @@ async function main() {
 
     const startBalance: BigNumber = await deployer.getBalance();
 
-    console.log('Getting needed addresses - From BT-6 deployed ones')
+    console.log('Getting needed addresses - From BT-14 deployed ones')
 
-    const tokenName = "BoulderTest-6-AA";
-    const tokenSymbol = "BT-6-AA";
+    const tokenName = "BoulderTest-14-F";
+    const tokenSymbol = "BT-14-F";
     const tokenDecimals = BigNumber.from("0");
 
-    console.log('Identity Registry Storage address:')
-    const identityRegistryStorageAddress = '0xEcA1471B2d9D44Ac08959c8d2bF151DDa4fCC42D'
+    console.log('Identity Registry Storage address')
+    const identityRegistryStorageAddress = '0x5cc815439d77374581EA1537B624A1E205019343'
 
     console.log('trexFactory Address')
-    const trexFactoryAddress = '0x47A539d1E0D681bF7eda87C3Ad91b4dEc6EBeea0'
+    const trexFactoryAddress = '0x0C3b15aFC9451f555e8f34fF2185bE0d027b5705'
     const trexFactory = await ethers.getContractAt('TREXFactory', trexFactoryAddress); 
 
-    const claimIssuerContractAddress = '0xAc2200899ce4D430100E7c2B4def9FE62AA7F507'
-
+    const claimIssuerContractAddress = '0xBD427E605797738986dCBE9f8E532648aba5309b'
+    
+    console.log('starting new token generation')
     const tx = await trexFactory.connect(deployer).deployTREXSuite(
         tokenName,
         {
@@ -71,10 +72,10 @@ async function main() {
           name: tokenName,
           symbol: tokenSymbol,
           decimals: tokenDecimals,
-          irs: identityRegistryStorageAddress, //ethers.constants.AddressZero, // ¿¿??
+          irs: ethers.constants.AddressZero, // ¿¿?? identityRegistryStorageAddress, //
           ONCHAINID: ethers.constants.AddressZero, // ¿¿??
           irAgents: [],
-          tokenAgents: [tokenAgent.address], 
+          tokenAgents: [], 
           complianceModules: [],
           complianceSettings: [],
         },
@@ -112,17 +113,24 @@ async function main() {
     // const identityRegistryAddress = '0x45cD5DBD1e67CdEa5100d59286766f610aE7F048'
     const identityRegistry = await ethers.getContractAt('IdentityRegistry', identityRegistryAddress); 
 
-    const agentManagerAddress = '0xa2B62E20248E46FfA59958D90347720c17639b76'
+    const agentManagerAddress = '0xeF2e31F3905C8e6b69cA1164A7d88537d7642cF7'
     const agentManager = await ethers.getContractAt('AgentManager', agentManagerAddress);
 
-    const claimTopicsRegistryAddress = '0x98d16D7dFFA71EBdcc9Ed8C688990E81569e9513'
+    const claimTopicsRegistryAddress = '0x671158C6D4B2EBF970fE6E7265843fB490af84ae'
     const claimTopicsRegistry = await ethers.getContractAt('ClaimTopicsRegistry', claimTopicsRegistryAddress);
 
     await token.connect(deployer).addAgent(tokenAgent.address);
 
     console.log(`token Connected deployer with tokenAgent`)
 
-    console.log('Removing claimTopics if exists');
+    console.log(`adding tokenAgent to identityRegistry`)
+    await identityRegistry.connect(deployer).addAgent(tokenAgent.address);
+    console.log(`added tokenAgent to identityRegistry`)
+    // console.log(`adding token to identityRegistry`)
+    // await identityRegistry.connect(deployer).addAgent(token.address);
+    // console.log(`added token to identityRegistry`)
+
+    console.log('Removing claimTopics if they exists');
     try {
       const topics = await claimTopicsRegistry.getClaimTopics();
       console.log(`topics: ${topics}`);
@@ -182,7 +190,7 @@ async function main() {
     await sleep(20);
     console.log('continuing...')
 
-    const tokenHolderIdentityAddress = '0xcA8813003956ceA53033151fE88B755C16f47d70'
+    const tokenHolderIdentityAddress = '0xD479d768a7b973757746d60e97c49A034f512FC1'
     const tokenHolderIdentity = await ethers.getContractAt('Identity', tokenHolderIdentityAddress)
 
     // console.log('Claiming for tokenHolder...')
