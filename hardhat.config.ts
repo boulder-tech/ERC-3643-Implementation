@@ -7,6 +7,7 @@ import '@primitivefi/hardhat-dodoc';
 import 'dotenv/config';
 
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL
+const AGOR_RPC_URL = process.env.AGOR_RPC_URL
 const PRIVATE_KEY_DEVELOPER = process.env.PRIVATE_KEY_DEVELOPER!
 const PRIVATE_KEY_TOKEN_ISSUER = process.env.PRIVATE_KEY_TOKEN_ISSUER!
 const PRIVATE_KEY_TOKEN_AGENT = process.env.PRIVATE_KEY_TOKEN_AGENT!
@@ -38,6 +39,14 @@ const config: HardhatUserConfig = {
         // gas: 20000000,
         // gasPrice: 8000000000,
     },
+    agor: {
+      url: AGOR_RPC_URL,
+      accounts: [PRIVATE_KEY_DEVELOPER, PRIVATE_KEY_TOKEN_ISSUER, PRIVATE_KEY_TOKEN_AGENT, PRIVATE_KEY_TOKEN_ADMIN, PRIVATE_KEY_CLAIM_ISSUER],
+      chainId: 421613,
+      // allowUnlimitedContractSize: true,
+      // gas: 20000000,
+      // gasPrice: 8000000000,
+  },
     localhost: {
         url: "http://127.0.0.1:8545/",
         // accounts: [PRIVATE_KEY],

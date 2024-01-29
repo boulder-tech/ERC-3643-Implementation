@@ -8,6 +8,7 @@ import 'dotenv/config';
 import * as fs from 'fs';
 
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL!
+const AGOR_RPC_URL = process.env.AGOR_RPC_URL!
 const PRIVATE_KEY_DEVELOPER = process.env.PRIVATE_KEY_DEVELOPER!
 const PRIVATE_KEY_TOKEN_ISSUER = process.env.PRIVATE_KEY_TOKEN_ISSUER!
 const PRIVATE_KEY_TOKEN_AGENT = process.env.PRIVATE_KEY_TOKEN_AGENT!
@@ -144,7 +145,7 @@ async function main() {
 
   console.log(`Deployed claimTopicsRegistry at: ${claimTopicsRegistry.address}`)
   
-  console.log('Deploying ClaimTopicsRegistryProxy...')
+  console.log('Deploying trustedIssuersRegistry...')
 
   const trustedIssuersRegistry = await ethers
     .deployContract("TrustedIssuersRegistryProxy", [trexImplementationAuthority.address], deployer)
@@ -179,9 +180,9 @@ async function main() {
   console.log(`Deployed identityRegistry at: ${identityRegistry.address}`)
   console.log(`Deploying tokenOID...`)
   const tokenOID = await deployIdentityProxy(identityImplementationAuthority.address, tokenIssuer.address, deployer);
-  console.log(`tokenOID deployed`)
-  const tokenName = "BoulderTest-G";
-  const tokenSymbol = "BT-G";
+  console.log(`tokenOID deployed at: ${tokenOID.address}`)
+  const tokenName = "BoulderTest-AGOR-1";
+  const tokenSymbol = "BT-AGOR-1";
   const tokenDecimals = BigNumber.from("0");
   
   const tokenproxyJson = JSON.parse(fs.readFileSync(PATH_TO_TOKENPROXY_CONTRACTS, 'utf8'));
@@ -233,7 +234,7 @@ async function main() {
 
   console.log(`Deployed agentManager at: ${agentManager.address}`)
 
-  console.log('Deploying identityRegistryStorage...')
+  console.log('Binding identityRegistryStorage with IdentityRegistry...')
   await identityRegistryStorage.connect(deployer).bindIdentityRegistry(identityRegistry.address);
 
   console.log(`Connected deployer with identityRegistryStorage and binded IndentityRegistry`)
@@ -262,7 +263,7 @@ async function main() {
 
   console.log(`Deploying identity proxy for tokenHolder...`)
   const tokenHolderIdentity = await deployIdentityProxy(identityImplementationAuthority.address, tokenHolderWallet.address, deployer);
-  console.log(`tokenHolder's identity deployed...`)
+  console.log(`tokenHolder's identity deployed at: ${tokenHolderIdentity.address}`)
   console.log(`adding tokenAgent to identityRegistry`)
   await identityRegistry.connect(deployer).addAgent(tokenAgent.address);
   console.log(`added tokenAgent to identityRegistry`)
@@ -304,9 +305,10 @@ async function main() {
     .connect(tokenHolderWallet)
     .addClaim(claimFortokenHolder.topic, claimFortokenHolder.scheme, claimFortokenHolder.issuer, claimFortokenHolder.signature, claimFortokenHolder.data, "", {gasLimit: gasLimit});
 
-  console.log(`Minting tokens to tokenHolder's wallet`)
+  console.log(`Minting tokens to tokenHolder's wallet`) // chequear si acá el tokenHolder está verificado
   await token.connect(tokenAgent).mint(tokenHolderWallet.address, 1000, {gasLimit: gasLimit});
-  console.log(`${token.symbol()} minted at tokenHolder's wallet`)
+
+  console.log(`${await token.symbol()} minted at tokenHolder's wallet`)
 
   await agentManager.connect(tokenAgent).addAgentAdmin(tokenAdmin.address);
   await token.connect(deployer).addAgent(agentManager.address);
